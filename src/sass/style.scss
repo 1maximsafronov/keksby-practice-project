@@ -9,7 +9,12 @@
 
 
 // <<<---Other--->>>
+
+//  <<<---Универсальные стили--->>>
 @import "./components/button.scss";
+@import "./components/external-link.scss";
+
+//  <<<---Целевые стили--->>>
 @import "./components/page-header.scss";
 @import "./components/page-nav.scss";
 @import "./components/features.scss";

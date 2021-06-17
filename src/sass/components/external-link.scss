@@ -1,0 +1,38 @@
+.external-link {
+  position: relative;
+
+  display: inline-block;
+  padding-right: 9px;
+
+  color: #a38b70;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: #8d745a;
+  }
+
+  &:active {
+    color: rgba(#8d745a, 0.3);
+
+    &::after {
+      opacity: 0.3;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+    width: 8px;
+    height: 8px;
+
+    background-image: url("../img/icon-link.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+}
