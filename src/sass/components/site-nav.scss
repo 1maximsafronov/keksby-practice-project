@@ -1,0 +1,50 @@
+.site-nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+
+  list-style: none;
+}
+
+.site-nav__item {
+  margin-right: 50px;
+
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-nav__link {
+  position: relative;
+
+  color: #ffffff;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 1px;
+    bottom: -10px;
+    left: 1px;
+
+    display: none;
+    height: 2px;
+
+    background-color: #ffffff;
+  }
+
+  &:hover,
+  &:focus {
+    &::after {
+      display: block;
+    }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
