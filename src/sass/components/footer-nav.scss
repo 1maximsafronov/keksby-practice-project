@@ -1,0 +1,51 @@
+.footer-nav__wrapper {
+  min-width: 150px;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer-nav__title {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: normal;
+  font-family: "Georgia", "Arial", sans-serif;
+  color: #a38b70;
+}
+
+.footer-nav__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.footer-nav__item {
+  margin-bottom: 25px;
+
+  color: #c3c3c3;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer-nav__link {
+  color: #c3c3c3;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+
+  &:active {
+    color: #ffffff;
+
+    opacity: 0.3;
+  }
+}
