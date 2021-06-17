@@ -9,6 +9,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  color: $primary-text-color;
+
+  background-color: #ffffff;
+}
+
 img {
   max-width: 100%;
   height: auto;

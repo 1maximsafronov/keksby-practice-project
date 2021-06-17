@@ -1,0 +1,36 @@
+.reviews {
+  background-color: #ffffff;
+}
+
+.reviews__wrapper {
+  padding-top: 70px;
+  padding-bottom: 90px;
+
+  @include container;
+}
+
+.reviews__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.reviews__title {
+  margin: 0;
+}
+
+.reviews__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.reviews__item {
+  flex-shrink: 0;
+  width: 50%;
+  padding-right: 90px;
+  padding-left: 50px;
+}

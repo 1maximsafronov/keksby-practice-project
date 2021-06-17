@@ -7,4 +7,14 @@
 @import "global/global.scss";
 @import "global/visually-hidden.scss";
 
+
 // <<<---Other--->>>
+@import "./components/page-header.scss";
+@import "./components/page-nav.scss";
+@import "./components/features.scss";
+@import "./components/theory.scss";
+@import "./components/reviews.scss";
+@import "./components/popular-products.scss";
+@import "./components/price.scss";
+@import "./components/write-us.scss";
+@import "./components/page-footer.scss";

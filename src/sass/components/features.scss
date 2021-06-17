@@ -1,0 +1,37 @@
+.features {
+  background-color: #ffffff;
+}
+
+.features__wrapper {
+  @include container;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.features__item {
+  width: 340px;
+  padding-top: 140px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+
+  text-align: center;
+}
+
+.features__title {
+  margin: 0;
+  margin-bottom: 29px;
+
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Georgia", sans-serif;
+  color: #a38b70;
+}

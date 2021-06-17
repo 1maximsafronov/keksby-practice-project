@@ -1,0 +1,40 @@
+.write-us {
+  background-color: #ffffff;
+}
+
+.write-us__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  @include container;
+}
+
+.write-us__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.write-us__title {
+  margin: 0;
+}
+
+.write-us__form {
+  order: 1;
+  width: 630px;
+}
+
+.write-us__image {
+  order: 2;
+  width: 340px;
+  margin: 0;
+
+  img {
+    display: block;
+  }
+}

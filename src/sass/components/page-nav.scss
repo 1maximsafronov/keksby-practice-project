@@ -1,0 +1,29 @@
+.page-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-nav__logo {
+  display: block;
+  flex-shrink: 0;
+  width: 205px;
+  height: 55px;
+  margin-right: 126px;
+
+  img {
+    display: block;
+  }
+}
+
+
+.page-nav__site-nav {
+  flex-shrink: 0;
+  width: 450px;
+  margin: 0;
+}
+
+.page-nav__order-button {
+  flex-shrink: 0;
+  margin-left: auto;
+}
