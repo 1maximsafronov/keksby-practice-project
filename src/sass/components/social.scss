@@ -1,0 +1,49 @@
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social__slogan {
+  margin: 0;
+  margin-right: 42px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: normal;
+  font-family: "Georgia", "Arial", sans-serif;
+  color: #a38b70;
+}
+
+.social__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social__item {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  display: block;
+  width: 62px;
+  height: 62px;
+
+  border: 1px solid rgba(#ffffff, 0.1);
+
+  &:hover,
+  &:focus {
+    border-color: rgba(#ffffff, 0.3);
+  }
+
+  &:active {
+    border-color: rgba(#ffffff, 0.1);
+  }
+}
