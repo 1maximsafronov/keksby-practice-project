@@ -1,0 +1,53 @@
+.copyright {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.copyright__heart-icon {
+  display: inline-block;
+  width: 27px;
+  height: 24px;
+
+  font-size: 0;
+  line-height: 24px;
+  vertical-align: top;
+
+  background-image: url("../img/icon-heart.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.copyright__link {
+  position: relative;
+
+  color: #ffffff;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    left: 0;
+
+    display: none;
+    height: 2px;
+
+    background-color: #a38b71;
+  }
+
+  &:hover,
+  &:focus {
+    &::after {
+      display: block;
+    }
+  }
+
+  &:active {
+    color: rgba(#ffffff, 0.3);
+
+    &::after {
+      background-color: #a38b71;
+    }
+  }
+}
