@@ -1,32 +1,38 @@
-// файл для подключения локальных шрифтов в стилях
-
-/*
-
 @font-face {
-  font-weight: 300;
-  font-style: normal;
-  font-family: "Font Name";
-  font-display: swap;
-  src: url("../fonts/filename.woff2") format("woff2"),
-      url("../fonts/filename.woff") format("woff");
-}
-
-@font-face {
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Font Name";
-  font-display: swap;
-  src: url("../fonts/filename.woff2") format("woff2"),
-      url("../fonts/filename.woff") format("woff");
-}
-
-@font-face {
+  font-style: italic;
   font-weight: 700;
-  font-style: normal;
-  font-family: "Font Name";
+  font-family: "Georgia";
+
   font-display: swap;
-  src: url("../fonts/filename.woff2") format("woff2"),
-      url("../fonts/filename.woff") format("woff");
+  src: url("../fonts/georgia_bold_italic-webfont.woff2") format("woff2"), url("georgia_bold_italic-webfont.woff") format("woff");
 }
 
-*/
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Georgia";
+
+  font-display: swap;
+  src: url("../fonts/georgia_bold-webfont.woff2") format("woff2"), url("georgia_bold-webfont.woff") format("woff");
+}
+
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Georgia";
+
+  font-display: swap;
+  src: url("../fonts/georgia_italic-webfont.woff2") format("woff2"), url("georgia_italic-webfont.woff") format("woff");
+}
+
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Georgia";
+
+  font-display: swap;
+  src: url("../fonts/georgia-webfont.woff2") format("woff2"), url("georgia-webfont.woff") format("woff");
+}
