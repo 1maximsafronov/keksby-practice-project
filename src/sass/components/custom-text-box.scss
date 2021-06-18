@@ -1,0 +1,42 @@
+.custom-text-box {
+  display: block;
+
+
+  label {
+    margin-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    font-size: 12px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  input,
+  textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #404040;
+
+    background-color: #ffffff;
+    border: 2px solid #d5d5d5;
+    outline: none;
+
+    &:hover {
+      border-color: #bebebe;
+    }
+
+    &:focus,
+    &:active {
+      border-color: #8d745a;
+    }
+  }
+}
