@@ -39,7 +39,15 @@
   }
 }
 
+.page-footer__order-button {
+  min-width: 170px;
+}
+
 .page-footer__nav {
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.page-footer__copyright {
+  margin: 0;
 }
