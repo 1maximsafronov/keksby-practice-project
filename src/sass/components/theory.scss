@@ -12,10 +12,19 @@
 .theory__header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 65px;
 }
 
 .theory__title {
+  flex-grow: 1;
+  margin: 0;
+  margin-right: 170px;
+}
+
+.theory__guide-button {
+  flex-shrink: 0;
+  min-width: 170px;
   margin: 0;
 }
 
@@ -38,9 +47,28 @@
 
 .theory__item-head {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: baseline;
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.theory__item-title {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+
+.theory__source {
+  margin: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+
+  font-style: italic;
+  color: #666666;
 }
 
 .theory__item-content {
@@ -52,6 +80,7 @@
 .theory__text {
   flex-grow: 1;
   order: 2;
+  margin: 0;
 }
 
 
@@ -60,6 +89,7 @@
   order: 1;
   width: 100px;
   height: 100px;
+  margin: 0;
   margin-right: 30px;
 
   img {
