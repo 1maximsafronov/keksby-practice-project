@@ -1,0 +1,24 @@
+.review-item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-right: 90px;
+  padding-left: 50px;
+
+  border-left: 3px solid #a38b70;
+}
+
+.review-item__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.review-item__author {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 700;
+  color: #000000;
+}

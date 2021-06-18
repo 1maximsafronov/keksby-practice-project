@@ -12,11 +12,20 @@
 .reviews__header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 70px;
+  align-items: flex-start;
+  margin-bottom: 65px;
 }
 
 .reviews__title {
+  flex-grow: 1;
+  flex-shrink: 0;
   margin: 0;
+  margin-right: 170px;
+}
+
+.reviews__all-button {
+  flex-shrink: 0;
+  min-width: 170px;
 }
 
 .reviews__list {
@@ -31,6 +40,4 @@
 .reviews__item {
   flex-shrink: 0;
   width: 50%;
-  padding-right: 90px;
-  padding-left: 50px;
 }
