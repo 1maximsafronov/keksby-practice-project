@@ -1,0 +1,44 @@
+.write-us-form {
+  padding: 0;
+}
+
+.write-us-form__user-info {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.write-us-form__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  column-gap: 50px;
+}
+
+.write-us-form__name {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+
+.write-us-form__phone {
+  flex-grow: 1;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.write-us-form__email {
+  flex-grow: 1;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.write-us-form__sub-toggler {
+  margin: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+}
