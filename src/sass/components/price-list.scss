@@ -1,0 +1,44 @@
+.price-list {
+  border-collapse: collapse;
+  font-size: 18px;
+  line-height: 30px;
+
+  td {
+    padding: 15px;
+
+    border: 1px solid #d8d8d8;
+  }
+
+  th {
+    padding: 15px;
+  }
+}
+
+
+.price-list__head {
+  th {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    &:first-child {
+      text-align: center;
+    }
+  }
+}
+
+.price-list__number {
+  text-align: center;
+}
+
+.price-list__service {
+  font-weight: 700;
+}
+
+.price-list__master {
+  width: 340px;
+}
+
+.price-list__value {
+  width: 170px;
+}
