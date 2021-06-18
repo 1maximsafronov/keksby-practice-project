@@ -4,13 +4,13 @@
   line-height: 30px;
 
   td {
-    padding: 15px;
+    padding: 10px 15px;
 
     border: 1px solid #d8d8d8;
   }
 
   th {
-    padding: 15px;
+    padding: 10px 15px;
   }
 }
 
@@ -19,6 +19,7 @@
   th {
     font-weight: 400;
     font-size: 14px;
+    text-align: left;
     text-transform: uppercase;
 
     &:first-child {

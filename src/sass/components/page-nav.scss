@@ -21,9 +21,11 @@
   flex-shrink: 0;
   width: 450px;
   margin: 0;
+  padding-top: 5px;
 }
 
 .page-nav__order-button {
   flex-shrink: 0;
+  min-width: 170px;
   margin-left: auto;
 }

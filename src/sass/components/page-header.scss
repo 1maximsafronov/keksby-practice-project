@@ -18,9 +18,12 @@
 }
 
 .page-header__hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 525px;
-  padding-top: 227px;
-  padding-bottom: 20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 
   background-image: url("../img/header-bg.png");
   background-position: center center;
@@ -32,6 +35,7 @@
 
   font-size: 45px;
   line-height: 55px;
+  font-family: $secondery-font;
   text-align: center;
   color: #ffffff;
 }

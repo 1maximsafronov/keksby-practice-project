@@ -4,7 +4,7 @@
 
 .theory__wrapper {
   padding-top: 75px;
-  padding-bottom: 90px;
+  padding-bottom: 91px;
 
   @include container;
 }
@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 65px;
+  margin-bottom: 55px;
 }
 
 .theory__title {
@@ -38,7 +38,7 @@
 }
 
 .theory__item {
-  margin-bottom: 73px;
+  margin-bottom: 70px;
 
   &:last-child {
     margin-bottom: 0;
