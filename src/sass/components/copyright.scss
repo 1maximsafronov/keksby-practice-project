@@ -1,6 +1,6 @@
 .copyright {
   font-size: 18px;
-  color: #ffffff;
+  color: $white-color;
   text-transform: uppercase;
 }
 
@@ -21,7 +21,7 @@
 .copyright__link {
   position: relative;
 
-  color: #ffffff;
+  color: $white-color;
 
   &::after {
     content: "";
@@ -33,7 +33,7 @@
     display: none;
     height: 2px;
 
-    background-color: #a38b71;
+    background-color: $brown-color;
   }
 
   &:hover,
@@ -44,10 +44,10 @@
   }
 
   &:active {
-    color: rgba(#ffffff, 0.3);
+    color: rgba($white-color, 0.3);
 
     &::after {
-      background-color: #a38b71;
+      background-color: $brown-color;
     }
   }
 }

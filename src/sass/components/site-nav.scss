@@ -11,7 +11,7 @@
 
   font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  color: $white-color;
   text-transform: uppercase;
 
   &:last-child {
@@ -22,7 +22,7 @@
 .site-nav__link {
   position: relative;
 
-  color: #ffffff;
+  color: $white-color;
 
   &::after {
     content: "";
@@ -34,7 +34,7 @@
     display: none;
     height: 2px;
 
-    background-color: #ffffff;
+    background-color: $white-color;
   }
 
   &:hover,

@@ -1,5 +1,5 @@
 .product {
-  border: 1px solid #d8d8d8;
+  border: 1px solid $gray-border-color;
 }
 
 .product__image {
@@ -35,7 +35,7 @@
   margin-right: 10px;
 
   font-size: 16px;
-  color: #000000;
+  color: $black-color;
 }
 
 .product__price {

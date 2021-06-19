@@ -22,13 +22,13 @@
     }
 
     .custom-checkbox__toggler-icon {
-      stroke: #8d745a;
+      stroke: $brown-light-color;
     }
   }
 
   &:active {
     .custom-checkbox__toggler {
-      border-color: #8d745a;
+      border-color: $brown-light-color;
     }
 
     .custom-checkbox__toggler-icon {
@@ -48,7 +48,7 @@
   width: 30px;
   height: 30px;
 
-  border: 2px solid #d5d5d5;
+  border: 2px solid $fomr-border-color;
   border-radius: 2px;
 }
 
@@ -58,5 +58,5 @@
   width: 17px;
   height: 11px;
 
-  stroke: #a38b70;
+  stroke: $brown-color;
 }

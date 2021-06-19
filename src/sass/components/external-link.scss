@@ -4,16 +4,16 @@
   display: inline-block;
   padding-right: 9px;
 
-  color: #a38b70;
+  color: $brown-color;
   text-decoration: underline;
 
   &:hover,
   &:focus {
-    color: #8d745a;
+    color: $brown-light-color;
   }
 
   &:active {
-    color: rgba(#8d745a, 0.3);
+    color: rgba($brown-light-color, 0.3);
 
     &::after {
       opacity: 0.3;

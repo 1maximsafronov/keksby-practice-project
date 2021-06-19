@@ -18,55 +18,55 @@
   cursor: pointer;
 
   &--brown {
-    color: #ffffff;
+    color: $white-color;
 
-    background-color: #a38b71;
-    border: 2px solid #a38b70;
+    background-color: $brown-color;
+    border: 2px solid $brown-color;
 
     &:hover,
     &:focus {
-      background-color: #8d745a;
-      border: 2px solid #8d745a;
+      background-color: $brown-light-color;
+      border: 2px solid $brown-light-color;
     }
 
     &:active {
-      color: rgba(#ffffff, 0.3);
+      color: rgba($white-color, 0.3);
     }
   }
 
   &--ghost {
-    color: #ffffff;
+    color: $white-color;
 
     background-color: none;
-    border: 2px solid #ffffff;
+    border: 2px solid $white-color;
 
     &:hover,
     &:focus {
-      color: #404040;
+      color: $primary-text-color;
 
-      background-color: #ffffff;
+      background-color: $white-color;
     }
 
     &:active {
-      color: rgba(#404040, 0.3);
+      color: rgba($primary-text-color, 0.3);
     }
   }
 
   &--brown-ghost {
-    color: #a38b70;
+    color: $brown-color;
 
     background-color: none;
-    border: 2px solid #a38b70;
+    border: 2px solid $brown-color;
 
     &:hover,
     &:focus {
-      color: #8d745a;
+      color: $brown-light-color;
 
-      border: 2px solid #8d745a;
+      border: 2px solid $brown-light-color;
     }
 
     &:active {
-      color: rgba(#8d745a, 0.3);
+      color: rgba($brown-light-color, 0.3);
     }
   }
 }
