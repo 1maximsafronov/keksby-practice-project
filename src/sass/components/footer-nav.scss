@@ -9,7 +9,7 @@
 
 .footer-nav__title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 24px;
@@ -26,7 +26,7 @@
 }
 
 .footer-nav__item {
-  margin-bottom: 25px;
+  margin-bottom: 16px;
 
   color: #c3c3c3;
 
@@ -36,6 +36,7 @@
 }
 
 .footer-nav__link {
+  font-weight: 400;
   color: #c3c3c3;
 
   &:hover,

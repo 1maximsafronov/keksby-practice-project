@@ -6,6 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
   padding-top: 60px;
   padding-bottom: 70px;
 
@@ -38,6 +40,7 @@
   order: 2;
   width: 340px;
   margin: 0;
+  padding-top: 40px;
 
   img {
     display: block;
