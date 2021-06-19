@@ -10,6 +10,14 @@
   border: none;
 }
 
+.write-us-form__message {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
 .write-us-form__group {
   display: flex;
   justify-content: space-between;
@@ -23,7 +31,6 @@
   margin: 0;
   margin-bottom: 18px;
 }
-
 
 .write-us-form__phone {
   flex-grow: 1;
@@ -41,4 +48,18 @@
   margin: 0;
   padding-right: 16px;
   padding-left: 16px;
+}
+
+.write-us-form__message-theme {
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.write-us-form__message-text {
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.write-us-form__submit {
+  min-width: 170px;
 }

@@ -260,14 +260,20 @@
                   </svg>
                 </span>Я согласен получать спам и смс на телефон</label>
             </p>
-
           </fieldset>
-
-          <p class="write-us-form__message custom-text-box">
-            <label for="write-us-form-message">Текст обращения</label>
-            <textarea name="write-us-form-message" id="write-us-form-message" cols="30" rows="10"
-              placeholder="Введите текст вашего обращения"></textarea>
-          </p>
+          <fieldset class="write-us-form__message">
+            <legend class="visually-hidden">Напишите ваш вопрос:</legend>
+            <p class="write-us-form__message-theme custom-text-box">
+              <label for="write-us-form-message-theme">Тема обращения:</label>
+              <input type="text" name="write-us-form-message-theme" id="write-us-form-message-theme"
+                placeholder="Условия доставки">
+            </p>
+            <p class="write-us-form__message-text custom-text-box">
+              <label for="write-us-form-message-text">Текст обращения</label>
+              <textarea name="write-us-form-message-text" id="write-us-form-message-text" cols="30" rows="10"
+                placeholder="Введите текст вашего обращения"></textarea>
+            </p>
+          </fieldset>
           <button class="write-us-form__submit button button--brown" type="submit">Отправить</button>
         </form>
       </div>
