@@ -1,0 +1,123 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+
+  border-radius: 2px;
+}
+
+*::after,
+* > *::after,
+* > * > *::after,
+*::before,
+* > *::before,
+* > * > *::before {
+  box-shadow: 0 0 2px 0 #9995b8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+address,
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figure,
+footer,
+form,
+header,
+html,
+li,
+main,
+ol,
+p,
+pre,
+table,
+ul {
+  /* background-color: #e2f5fc; */
+  box-shadow: 0 0 2px 0 #21a3ff;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  /* background-color: #fff9f5; */
+  box-shadow: 0 0 2px 0 #ffa054;
+}
+
+article,
+aside,
+nav,
+section {
+  /* background-color: #faf3ff; */
+  box-shadow: 0 0 2px 0 #b94af2;
+}
+
+abbr,
+area,
+b,
+bdi,
+bdo,
+br,
+cite,
+code,
+data,
+datalist,
+del,
+dfn,
+em,
+i,
+label,
+legend,
+mark,
+q,
+s,
+small,
+span,
+strong,
+sub,
+sup,
+template,
+time {
+  /* background-color: #fff3ff; */
+  box-shadow: 0 0 2px 0 #ff03ff;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+math,
+object,
+svg,
+video {
+  /* background-color: #fff3f6; */
+  box-shadow: 0 0 2px 0 #ff0056;
+}
+
+a,
+button,
+input,
+keygen,
+select,
+textarea {
+  /* background-color: #f2fcf8; */
+  box-shadow: 0 0 2px 0 #04df7a;
+}
