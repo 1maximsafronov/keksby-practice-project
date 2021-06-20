@@ -17,15 +17,18 @@
 
 .social__list {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
   margin: 0;
   padding: 0;
 
   list-style: none;
+  column-gap: 10px;
+
+  row-gap: 10px;
 }
 
 .social__item {
-  margin-right: 10px;
-
   &:last-child {
     margin-right: 0;
   }

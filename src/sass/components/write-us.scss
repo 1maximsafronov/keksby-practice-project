@@ -16,10 +16,13 @@
 
 .write-us__header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin-bottom: 60px;
+
+  row-gap: 20px;
 }
 
 .write-us__title {
@@ -27,6 +30,7 @@
 }
 
 .write-us__text {
+  min-width: 170px;
   margin: 0;
 }
 

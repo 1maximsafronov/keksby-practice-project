@@ -16,13 +16,12 @@
 }
 
 .popular-products__title {
-  flex: 1 1 auto;
+  width: 680px;
   margin: 0;
   margin-right: 170px;
 }
 
 .popular-products__catalog-link {
-  flex-shrink: 0;
   min-width: 170px;
   margin: 0;
 }

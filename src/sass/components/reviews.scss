@@ -18,13 +18,12 @@
 
 .reviews__title {
   flex-grow: 1;
-  flex-shrink: 0;
+  width: 680px;
   margin: 0;
   margin-right: 170px;
 }
 
 .reviews__all-button {
-  flex-shrink: 0;
   min-width: 170px;
 }
 
@@ -35,6 +34,8 @@
   padding: 0;
 
   list-style: none;
+
+  row-gap: 20px;
 }
 
 .reviews__item {
